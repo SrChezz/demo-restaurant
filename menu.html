@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<head lang="<%= __('lang') %> ">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Montserrat:wght@300;400;600;700&family=Source+Sans+Pro:wght@300;400;600;700;900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" type="image/png" href="./images/koi-logo.png" />
+    <script src="https://kit.fontawesome.com/81478abc59.js" crossorigin="anonymous"></script>
+    <title>QuinuaQ - Restaurante</title>
+</head>
+<body>
+    <nav id="navbar">
+
+        <div class="toggle-container">
+            <a id="closeNav" href="javascript:void(0);" class="toggle" onclick="moveResponsiveNav()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="/"><img src="./images/koi-logo.jpg" alt=""></a>
+            <a href="" class="toggle nav-icon"><i class="fab fa-tripadvisor tripadvisor" style="background-image: url(/images/tripadvisor-logo.png);
+                width: 20px;
+                height: 20px;"></i></a>
+        </div>
+        
+        <ul class="nav-links">
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Actividades</a></li>
+            <li><a href="#">Tienda</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+        <ul class="nav-icons">
+            <li><a href="https://www.facebook.com/Ecolodge.QuinuaQ/" class="nav-icon" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://www.instagram.com/quinuaq.peru/" class="nav-icon" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.tripadvisor.com.pe/Restaurant_Review-g316041-d17347151-Reviews-QuinuaQ-Ayacucho_Ayacucho_Region.html" class="nav-icon" target="_blank"><i class="fab fa-tripadvisor tripadvisor" style="background-image: url(/images/tripadvisor-logo.png);
+                width: 20px;
+                height: 20px;"></i></a></li>
+            <li><a href="#locale" class="nav-icon"><i class="fas fa-language"></i></a></li>
+        </ul>
+    </nav>
+
+    <div class="responsive-list">
+        <a href="javascript:void(0);" onclick="moveResponsiveNav()"><i class="close-nav fas fa-times-circle fa-2x"></i></a>
+        <div class="a">
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Actividades</a></li>
+            <li><a href="#">Tienda</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+        </div>
+
+        <hr>
+
+        <div class="b">
+            <a href="https://www.facebook.com/Ecolodge.QuinuaQ/" class="nav-icon"><i class="fab fa-facebook-f fa-2x"></i></a>
+            <a href="https://www.instagram.com/quinuaq.peru/" class="nav-icon"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.tripadvisor.com.pe/Restaurant_Review-g316041-d17347151-Reviews-QuinuaQ-Ayacucho_Ayacucho_Region.html" class="nav-icon"><i class="fab fa-tripadvisor tripadvisor" style="background-image: url(/images/tripadvisor-logo.png);
+                width: 20px;
+                height: 20px;"></i></a>
+        </div>
+    </div>
+
+    <section class="small-wide-section" style="background-image: url('./images/menu-1.jpg');">
+        <h1 class="white">EL MENÚ</h1>
+    </section>
+    <section class="menu-content">
+
+        <div class="text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, maiores earum recusandae culpa labore omnis voluptates ad illo maxime, veritatis repudiandae ullam similique sunt provident porro voluptas nobis quasi laborum!</p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error pariatur et sit voluptatibus sint, explicabo commodi at ut, neque rerum architecto officia assumenda eum nobis. Iusto laborum id aut provident!
+            </p>
+        </div>
+
+        <div class="list">
+            <div class="column">
+                <h2 class="light-title">ENTRADAS</h2>
+                <hr>
+                <div class="dish-card golden-dish-card">
+                    <p class="extra-text">RECOMENDADO</p>
+                    <div>
+                        <span class="dish-name">ENGLISH-ASPARAGUS</span>
+                        <span class="dish-price">$14.95</span>
+                        <div class="dish-dots"></div>
+                    </div>
+                    <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
+                </div>
+                <div class="dish-card">
+                    <div>
+                        <span class="dish-name">ENGLISH-ASPARAGUS</span>
+                        <span class="dish-price">$14.95</span>
+                        <div class="dish-dots"></div>
+                    </div>
+                    <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
+                </div>
+                <div class="dish-card">
+                    <div>
+                        <span class="dish-name">ENGLISH-ASPARAGUS</span>
+                        <span class="dish-price">$14.95</span>
+                        <div class="dish-dots"></div>
+                    </div>
+                    <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
+                </div>
+            </div> 
+            
+            <div class="column">
+                <h2 class="light-title">ACOMPAÑANTES</h2>
+                <hr>
+                <div class="dish-card">
+                    <div>
+                        <span class="dish-name">ENGLISH-ASPARAGUS</span>
+                        <span class="dish-price">$14.95</span>
+                        <div class="dish-dots"></div>
+                    </div>
+                    <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
+                </div>
+                <div class="dish-card">
+                    <div>
+                        <span class="dish-name">ENGLISH-ASPARAGUS</span>
+                        <span class="dish-price">$14.95</span>
+                        <div class="dish-dots"></div>
+                    </div>
+                    <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
+                </div>
+                <div class="dish-card">
+                    <div>
+                        <span class="dish-name">ENGLISH-ASPARAGUS</span>
+                        <span class="dish-price">$14.95</span>
+                        <div class="dish-dots"></div>
+                    </div>
+                    <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
+                </div>
+            </div> 
+        </div>
+
+    </section>
+
+
+    <div class="line-divider-black extra-padding">
+        ✻
+    </div>
+
+    <section class="menu-banner" style="background-image: url('./images/menu-2.jpg');">
+        <h1 class="white">ALMUERZOS</h1>
+    </section>
+
+    <section class="menu-content">
+
+        <div class="list">
+            <div class="column">
+
+                <div class="dish-card">
+                    <div>
+                        <span class="dish-name bold">WHITE WINE</span>
+                        <span class="dish-price">BOTTLE</span>
+                        <div class="dish-dots"></div>
+                    </div>
+                </div>
+                <div class="dish-card">
+                    <div>
+                        <span class="dish-name">ENGLISH-ASPARAGUS</span>
+                        <span class="dish-price">$14.95</span>
+                        <div class="dish-dots"></div>
+                    </div>
+                    <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
+                </div>
+                <div class="dish-card">
+                    <div>
+                        <span class="dish-name">ENGLISH-ASPARAGUS</span>
+                        <span class="dish-price">$14.95</span>
+                        <div class="dish-dots"></div>
+                    </div>
+                    <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
+                </div>
+            </div> 
+            
+            <div class="column">
+            
+                <div class="dish-card">
+                    <div>
+                        <span class="dish-name">ENGLISH-ASPARAGUS</span>
+                        <span class="dish-price">$14.95</span>
+                        <div class="dish-dots"></div>
+                    </div>
+                    <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
+                </div>
+                <div class="dish-card">
+                    <div>
+                        <span class="dish-name">ENGLISH-ASPARAGUS</span>
+                        <span class="dish-price">$14.95</span>
+                        <div class="dish-dots"></div>
+                    </div>
+                    <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
+                </div>
+                <div class="dish-card">
+                    <div>
+                        <span class="dish-name">ENGLISH-ASPARAGUS</span>
+                        <span class="dish-price">$14.95</span>
+                        <div class="dish-dots"></div>
+                    </div>
+                    <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
+                </div>
+            </div> 
+        </div>
+
+    </section>
+
+    <div class="line-divider-black extra-padding">
+        ✻
+    </div>
+
+    <section class="menu-banner" style="background-image: url('./images/menu-3.jpg');">
+        <h1 class="white">CENAS</h1>
+    </section>
+
+    <section class="menu-content">
+
+        <div class="list">
+            <div class="column">
+
+                <div class="dish-card">
+                    <div>
+                        <span class="dish-name">ENGLISH-ASPARAGUS</span>
+                        <span class="dish-price">$14.95</span>
+                        <div class="dish-dots"></div>
+                    </div>
+                    
+                    <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
+                </div>
+                <div class="dish-card">
+                    <div>
+                        <span class="dish-name">ENGLISH-ASPARAGUS</span>
+                        <span class="dish-price">$14.95</span>
+                        <div class="dish-dots"></div>
+                    </div>
+                    <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
+                </div>
+                <div class="dish-card">
+                    <div>
+                        <span class="dish-name">ENGLISH-ASPARAGUS</span>
+                        <span class="dish-price">$14.95</span>
+                        <div class="dish-dots"></div>
+                    </div>
+                    <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
+                </div>
+            </div> 
+            
+            <div class="column">
+            
+                <div class="dish-card">
+                    <div>
+                        <span class="dish-name">ENGLISH-ASPARAGUS</span>
+                        <span class="dish-price">$14.95</span>
+                        <div class="dish-dots"></div>
+                    </div>
+                    <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
+                </div>
+                <div class="dish-card">
+                    <div>
+                        <span class="dish-name">ENGLISH-ASPARAGUS</span>
+                        <span class="dish-price">$14.95</span>
+                        <div class="dish-dots"></div>
+                    </div>
+                    <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
+                </div>
+                <div class="dish-card">
+                    <div>
+                        <span class="dish-name">ENGLISH-ASPARAGUS</span>
+                        <span class="dish-price">$14.95</span>
+                        <div class="dish-dots"></div>
+                    </div>
+                    <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
+                </div>
+            </div> 
+        </div>
+
+    </section>
+
+    <div class="line-divider-black extra-padding">
+        ✻
+    </div>
+
+    <section class="menu-banner" style="background-image: url('./images/menu-4.jpg');">
+        <h1 class="white">BEBIDAS</h1>
+    </section>
+
+    <section class="menu-content">
+
+        <div class="list">
+            <div class="column">
+
+                <div class="dish-card">
+                    <div>
+                        <span class="dish-name">ENGLISH-ASPARAGUS</span>
+                        <span class="dish-price">$14.95</span>
+                        <div class="dish-dots"></div>
+                    </div>
+                    <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
+                </div>
+                <div class="dish-card">
+                    <div>
+                        <span class="dish-name">ENGLISH-ASPARAGUS</span>
+                        <span class="dish-price">$14.95</span>
+                        <div class="dish-dots"></div>
+                    </div>
+                    <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
+                </div>
+                <div class="dish-card">
+                    <div>
+                        <span class="dish-name">ENGLISH-ASPARAGUS</span>
+                        <span class="dish-price">$14.95</span>
+                        <div class="dish-dots"></div>
+                    </div>
+                    <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
+                </div>
+            </div> 
+            
+            <div class="column">
+            
+                <div class="dish-card">
+                    <div>
+                        <span class="dish-name">ENGLISH-ASPARAGUS</span>
+                        <span class="dish-price">$14.95</span>
+                        <div class="dish-dots"></div>
+                    </div>
+                    <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
+                </div>
+                <div class="dish-card">
+                    <div>
+                        <span class="dish-name">ENGLISH-ASPARAGUS</span>
+                        <span class="dish-price">$14.95</span>
+                        <div class="dish-dots"></div>
+                    </div>
+                    <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
+                </div>
+                <div class="dish-card">
+                    <div>
+                        <span class="dish-name">ENGLISH-ASPARAGUS</span>
+                        <span class="dish-price">$14.95</span>
+                        <div class="dish-dots"></div>
+                    </div>
+                    <p>Asparagus, hens egg, toasted sunflower seeds, Spenwood cheese</p>
+                </div>
+            </div> 
+        </div>
+
+    </section>
+
+    <div class="line-divider-black extra-padding">
+        ✻
+    </div>
+
+    <div class="golden-message">
+        <h4 class="white">SERVICIO DE CALIDAD</h4>
+        <p class="white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, assumenda laudantium. Iure officiis quod enim, vero voluptatum accusantium, blanditiis minima sint eos quam dolore ea soluta ab omnis itaque animi.</p>
+        <p class="white">Puede llamar a nuestro equipo al 946393256 para mas información.</p>
+    </div>
+
+
+    <footer>
+        <div>
+            <h4>Somos Quinua<span style="color:#c59d5f">Q</span></h4>
+            <div class="line-divider">
+                ✻
+            </div>
+            <p>QuinuaQ es un Centro de Capacitación en Hospitalidad (HTC) y ofrece capacitación vocacional a adultos jóvenes locales, para que se conviertan en cocineros, bartenders y meseros capacitados. La capacitación brinda a los estudiantes la oportunidad de desarrollarse y enfocarse en un futuro mejor.</p>
+            <h4>NUESTRA HISTORIA</h4>
+            <div class="foot-icons">
+                <a href="https://www.facebook.com/Ecolodge.QuinuaQ/" class="icons" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/quinuaq.peru/" class="" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tripadvisor.com.pe/Restaurant_Review-g316041-d17347151-Reviews-QuinuaQ-Ayacucho_Ayacucho_Region.html" class="" target="_blank"><i class="fab fa-tripadvisor tripadvisor" style="background-image: url(/images/tripadvisor-logo.png);
+                    width: 20px;
+                    height: 20px;"></i></a>
+            </div>
+            <form action="/locale" method="POST">
+                <!-- onchange="this.form.submit()" -->
+                <select name="locale" id="locale">
+                    <option value="">Seleccione su Idioma</option>
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                </select>
+            </form>
+        </div>
+    
+    </footer>
+
+    <div class="footer2">
+        <p>© QUINUAQ 2021  •   Rasuhuilca, 05160 Quinua Perú   •   Tel: 946393256   •   SrChezz</p>
+    </div>
+
+<script src="/hideNav.js"></script>
+</body>
+</html>
+
+
+    
